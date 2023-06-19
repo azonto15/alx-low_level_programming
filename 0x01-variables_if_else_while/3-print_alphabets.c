@@ -6,7 +6,7 @@
  * main - main block
  * description:program that prints the alphabet in lowercase,
  * followed by a new line.
- * return 0 on success
+ * Return: 0
  */
 int main(void)
 {
