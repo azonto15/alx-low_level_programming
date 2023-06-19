@@ -30,9 +30,9 @@ int main(void)
 
 				if (c + d != 17)
 				{
-					puchar(',');
-					putchar(' ');			
-				}        
+					putchar(',');
+					putchar(' ');
+				}
 			}
 			c++;
 		}
