@@ -4,9 +4,10 @@
 
 /**
  * main - main block
- * description:a program that prints the alphabet in lowercascase,i
+ * description:a program that prints the alphabet in lowercascase
+ * and in upper case, followed by a new line
  * followed by a new line.
- * return 0 on success
+ * Return:0
  */
 int main(void)
 {
