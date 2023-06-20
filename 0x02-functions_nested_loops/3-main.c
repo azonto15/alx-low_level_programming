@@ -2,8 +2,8 @@
 #include<stdio.h>
 
 /**
- * main - check the code.
- *
+ * main - check for lower case charcter
+ *@c: The charcter to be checked
  * Return: Always 0.
  */
 int main(void)
