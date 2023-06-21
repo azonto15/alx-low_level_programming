@@ -1,9 +1,10 @@
 #include "main.h"
 #include<stdio.h>
 /**
-* print_sign - check for lower case character
-* @c: The number to checked
-* Return: 1 for postive number or 0 for negative number and  naytheing else
+*print_sign - check for lower case character
+*@c: The number to checked
+*Return: 1 for postive number, -1 for negative number and zero
+*for anything else
 */
 
 int print_sign(int n)
