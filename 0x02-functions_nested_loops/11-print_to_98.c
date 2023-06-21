@@ -3,8 +3,9 @@
 /**
 *print_to_98(int n - prints all natural numbers from n to 98.
 *@n: The number to start printinng from
-*Return: Always 0
+*Return: Always 0.
 */
+
 void print_to_98(int n)
 {
 if (n <= 98)
