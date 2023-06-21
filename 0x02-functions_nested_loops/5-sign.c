@@ -2,11 +2,10 @@
 #include<stdio.h>
 /**
 *print_sign - check for lower case character
-*@c: The number to checked
+*@n: The number to checked
 *Return: 1 for postive number, -1 for negative number and zero
 *for anything else
 */
-
 int print_sign(int n)
 {
 if (n > 0)
@@ -21,7 +20,7 @@ return (-1);
 }
 else
 {
-_putchar (48);
+_putchar(48);
 return (0);
 }
 
