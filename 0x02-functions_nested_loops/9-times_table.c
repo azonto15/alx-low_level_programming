@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*Timetable - to print the 9n times table starting with 0
+*times_table - prints the 9n times table starting with 0
 * Return: empty output
 */
 
