@@ -1,25 +1,21 @@
 #include <stdio.h>
 /**
 *Main - list all the natural numbers below 10 that are multiples of 3 or 5,
-*Return: Always success
-*/
-int min(void)
-{
+*Return: The sum of multiles of 3 and 5
+*/                                                                              
 
-int i, z = 0;
+int main(void)
+{
+int j, sum = 0;
 
-while (i < 1024)
+for (j = 0; j < 1024; ++j)
 {
-if ((i % 3 == 0) || (i % 5 == 0))
-{
-z += i;
-}
-i++;
-}
-if (i != 1024)
-{
-printf(",");
-}
-printf("%d\n", z);
+if ((j % 3) == 0 || (j % 5) == 0)
+sum += j;
+	}
+printf("%d\n", sum);
+
 return (0);
 }
+
+
