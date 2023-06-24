@@ -16,6 +16,10 @@ z += i;
 }
 i++;
 }
+if (i != 1024)
+{
+printf(",");
+}
 printf("%d\n", z);
 return (0);
 }
