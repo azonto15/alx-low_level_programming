@@ -17,15 +17,16 @@ printf("%lu", sum);
 
 num1 = num2;
 num2 = sum;
-
-if (cnt == 49)
+}
+if (cnt != 49)
 {
-printf("\n");
-}
-else
 printf(", ");
+if (i == 49)
+{
+printf("\n ");
 }
-
 return (0);
 }
+}
+
 
