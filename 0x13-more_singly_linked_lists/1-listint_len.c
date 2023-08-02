@@ -12,12 +12,12 @@
 size_t listint_len(const listint_t *h)
 {
 int count = 0;
-if (h == 0){
+if (h == 0)
 printf("The list is empty");
-}
-while (h != 0){
+while (h != 0)
+{
 count++;
-h = h-> next;
+h = h->next;
 }
 return (count);
 }
