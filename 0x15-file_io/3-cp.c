@@ -93,8 +93,8 @@ int main(int argc, char *argv[])
 		end = open(argv[2], O_WRONLY | O_APPEND);
 
 	}
-	while (j > 0);
-
+	while (j > 0)
+	{
 	free(buffer);
 	close_file(start);
 	close_file(end);
