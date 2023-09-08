@@ -26,8 +26,9 @@ return (bafa);
 
 /**
  * close_file - The function will Close the  file descriptors.
- * @fd: Variable for file descriptor to be closed.
- */
+ * @filedec: This is a file variable name
+*/
+
 void close_file(int filedec)
 {
 int clos;
@@ -40,7 +41,7 @@ exit(100);
 }
 /**
  * * main - The file that Copies file contents to another file.
- * @argc  arguments count passed to the program.
+ * @argc: Arguments count passed to the program.
  * @argv: pointers collection(array)to the arguments.
  * Return: Returns 0 if it succeds.
  * Description: for incorrect argument count return - exit code 97.
